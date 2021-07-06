@@ -9,12 +9,22 @@
     "start": "webpack-dev-server"
   },
   "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^4.7.1",
+    "axios": "^0.21.1",
+    "mapbox-gl": "^2.3.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^16.2.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
